@@ -1,0 +1,78 @@
+.hero_section {
+  background: var(--hero-bg);
+}
+
+.hero_section h2 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-top: 2.5rem;
+}
+.hero_section h5 {
+  padding-top: 2.5rem;
+}
+.hero_section h6 {
+  padding-top: 2.5rem;
+  color: black;
+}
+.buy_btn {
+  border-radius: 50px;
+  background-color: tomato;
+  border: none;
+  color: beige;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 2.5rem;
+}
+
+.buy_btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buy_btn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buy_btn:hover span {
+  padding-right: 25px;
+}
+
+.buy_btn:hover a {
+  color: white;
+}
+
+.buy_btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.timer_count {
+  background-color: var(--primary-color);
+  height: 300;
+} 
+.clock_top-contest h4 {
+margin-right: 16rem;
+}
+.timer_count img {
+  max-width: 100% !important;
+  margin-left: 10rem;
+}
+.store_btn {
+  background: fff;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.store_btn a:hover {
+  color: var(--primary-color);
+}

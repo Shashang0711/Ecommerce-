@@ -1,0 +1,13 @@
+nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+}
+nav button{
+    margin: 5px;
+    background-color:black;
+    border: none;
+    color: white;
+}

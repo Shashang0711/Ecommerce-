@@ -1,0 +1,37 @@
+.buys_btn {
+  padding: 0px 30px;
+  border-radius: 8px;
+  background: black;
+  color: white;
+  margin-top: 20px;
+  font-size: 22px;
+}
+.pet img {
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+}
+.pet .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wolf {
+  font-size: 1.5rem;
+}
+.bag {
+  font-size: 1.2rem;
+  color: black;
+}
+.punch {
+  color: black;
+}
+.product_rating p {
+  color: black;
+  margin: 3px;
+  padding: 1px;
+  margin-left: 1px;
+}
+.product_rating i {
+  color: goldenrod;
+}
